@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-content {
+  background-color: #ffffff;
+  padding: 80px 120px;
+  box-shadow: 5px 5px rgb(238, 235, 235);
+  text-align: center;
+}
+
+.heading {
+  color: #0b69ff;
+  font-weight: 900;
+}
+.note-text {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 600;
+  width: 20vw;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 35px;
+}
+.number {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0b69ff;
+}
